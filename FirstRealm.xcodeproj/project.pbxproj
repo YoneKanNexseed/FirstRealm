@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		0CBCEB1022EFCFE100CCFFD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBCEB0E22EFCFE100CCFFD6 /* Main.storyboard */; };
 		0CBCEB1222EFCFE300CCFFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBCEB1122EFCFE300CCFFD6 /* Assets.xcassets */; };
 		0CBCEB1522EFCFE300CCFFD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBCEB1322EFCFE300CCFFD6 /* LaunchScreen.storyboard */; };
+		0CBCEB1D22EFD7F200CCFFD6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCEB1C22EFD7F200CCFFD6 /* Item.swift */; };
 		AA60FD360202B42837DE6909 /* Pods_FirstRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5B69C45235C4DC71035398 /* Pods_FirstRealm.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		0CBCEB1122EFCFE300CCFFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CBCEB1422EFCFE300CCFFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CBCEB1622EFCFE300CCFFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CBCEB1C22EFD7F200CCFFD6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		4D5A52117B078294E8E71E71 /* Pods-FirstRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstRealm.debug.xcconfig"; path = "Target Support Files/Pods-FirstRealm/Pods-FirstRealm.debug.xcconfig"; sourceTree = "<group>"; };
 		AB5B69C45235C4DC71035398 /* Pods_FirstRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,6 +69,7 @@
 				0CBCEB1122EFCFE300CCFFD6 /* Assets.xcassets */,
 				0CBCEB1322EFCFE300CCFFD6 /* LaunchScreen.storyboard */,
 				0CBCEB1622EFCFE300CCFFD6 /* Info.plist */,
+				0CBCEB1C22EFD7F200CCFFD6 /* Item.swift */,
 			);
 			path = FirstRealm;
 			sourceTree = "<group>";
@@ -77,7 +80,6 @@
 				4D5A52117B078294E8E71E71 /* Pods-FirstRealm.debug.xcconfig */,
 				087EB9B8FB98C93E11E35E7F /* Pods-FirstRealm.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CBCEB0D22EFCFE100CCFFD6 /* ViewController.swift in Sources */,
+				0CBCEB1D22EFD7F200CCFFD6 /* Item.swift in Sources */,
 				0CBCEB0B22EFCFE100CCFFD6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
